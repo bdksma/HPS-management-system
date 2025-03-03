@@ -1,18 +1,26 @@
-/node_modules
+# Direktori yang tidak perlu diunggah
+/node_modules/
+/vendor/
+/storage/
+database/
+
+# File lingkungan & konfigurasi sensitif
+.env
+.env.*
+*.key
+
+# Log dan cache
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+
+# File khusus editor/IDE
+/.idea/
+/.vscode/
+
+# Laravel & Docker
 /public/hot
 /public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.phpunit.result.cache
 docker-compose.override.yml
 Homestead.json
 Homestead.yaml
-npm-debug.log
-yarn-error.log
-/.idea
-/.vscode
-/storage/
-/database/
-/node_modules/
