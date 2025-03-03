@@ -14,3 +14,4 @@ Sistem berbasis web untuk manajemen **Harga Perkiraan Sendiri (HPS)** menggunaka
 - **Bootstrap & JavaScript** (Frontend)
 
 ## 📂 Struktur Folder:
+📂 HPS-Management-System ┣ 📁 app/ # Laravel Backend ┣ 📁 resources/views/ # Frontend Blade Template ┣ 📁 database/ # (Tidak diunggah) ┣ 📂 storage/ # (Tidak diunggah) ┣ .env.example # Contoh Konfigurasi (Tanpa Data Asli) ┣ README.md # Dokumentasi Proyek
