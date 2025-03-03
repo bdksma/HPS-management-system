@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Mengatur tabel */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.75;
+    text-decoration: underline;
+    font-size: 14pt;
+}
+h4 {
+    font-size: 12pt;
+    line-height: 1.15;
+}
+.center {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+vertical-align: middle;
+}
+
+td{
+text-align: left;
+}
+
+.right-aligned {
+text-align: right;
+padding-right: 10px; /* Menambahkan sedikit padding kanan untuk ruang ekstra */
+}
+
+.left-aligned {
+text-align: right;
+padding-right: 10px; /* Menambahkan sedikit padding kanan untuk ruang ekstra */
+}
+
+.fit-content {
+white-space: nowrap;
+min-width: 40px; /* Example minimum width */
+max-width: 200px; /* Example maximum width */
+}
+
+.form-control {
+    width: 100%;
+    box-sizing: border-box;
+}
+.rp-dropdown {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text-center {
+text-align: center; /* Mengatur teks ke tengah */
+}
+
+.text-right {
+text-align: right; /* Mengatur teks ke kanan */
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
